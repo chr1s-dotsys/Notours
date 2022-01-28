@@ -37,15 +37,18 @@ body {
         url("/img/hero.jpg");
     background-size: cover;
     background-position:top;
-    clip-path: polygon(0% 0%, 100% 0% , 100% 80%, 0% 100%);
     position: relative;
+    clip-path: polygon(0% 0%, 100% 0% , 100% 80%, 0% 100%);
+ 
+    // &__logo-box {
+    //     position: absolute;
+    //     top: 40px;
+    //     left: 40px;
+        
+    // }
 
 }
-.header__logo-box {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-}
+
 .header__logo {
     height: 35px;
 
