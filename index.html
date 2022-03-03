@@ -255,29 +255,131 @@
 
       <!-- section stories -->
       <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            your browser is not supported!
+          </video>
+        </div>
+
         <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            We make people genuinely happy
-          </h2>
+          <h2 class="heading-secondary">We make people genuinely happy</h2>
         </div>
 
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-8.jpg" alt="person on a tour" class="story__img">
+              <img
+                src="img/nat-8.jpg"
+                alt="person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
-            <div class="story__text ">
+            <div class="story__text">
               <h3 class="heading-tertiary u-margin-bottom-small">
                 i had the best week ever with my family
               </h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, dolores voluptatum dolorum iure in ipsa quis, quasi vel hic ab facilis similique atque minus exercitationem ea. Rem non iste praesentium nisi distinctio facere! Fugit veritatis ad officiis earum ipsum nostrum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, dolores voluptatum dolorum iure in ipsa quis, quasi vel
+                hic ab facilis similique atque minus exercitationem ea. Rem non
+                iste praesentium nisi distinctio facere! Fugit veritatis ad
+                officiis earum ipsum nostrum.
               </p>
             </div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-9.jpg"
+                alt="person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">jack wilson</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                wow my life is completely different now
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, dolores voluptatum dolorum iure in ipsa quis, quasi vel
+                hic ab facilis similique atque minus exercitationem ea. Rem non
+                iste praesentium nisi distinctio facere! Fugit veritatis ad
+                officiis earum ipsum nostrum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text"> discover all tours &rarr;</a>
+        </div>
       </section>
       <!-- end of section stories -->
+      <!-- section box  -->
+
+      <section class="section-book">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Start Booking Now</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    id="name"
+                    class="form__input"
+                    required
+                  />
+                  <label for="name" class="form__label">Full Name</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    id="email"
+                    class="form__input"
+                    required
+                  />
+                  <label for="name" class="form__label">Email</label>
+                </div>
+
+                <div class="form__group">
+
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="small" name="size">
+                    <label for="small" class="form__radio-label" >
+                      <span class="form__radio-button"></span>
+                      Small tour group
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input type="radio" class="form__radio-input" id="try" name="size">
+                    <label for="try" class="form__radio-label" >
+                      <span class="form__radio-button"></span>
+                      large tour group</label>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn--green btn--animated">
+                  Discover our tours
+                  </a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
