@@ -5,3 +5,35 @@
         clear: both;
     }
 }
+
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+// media query manager
+// 0 - 600px:  phone 
+// 600 - 900px:  table portrait
+// 900 -1200px: table landscape
+// [1200 - 1800] is where our normal style apply
+// 1800px + : Big desktop
+
+@mixin respond-phone {
+  @media (max-width:600px) {
+    @content
+  };
+}
+// breakpoint arg choices
+
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width:600px) {
+      @content
+    };
+  }  
+}
